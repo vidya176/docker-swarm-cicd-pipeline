@@ -19,7 +19,7 @@ pipeline {
         }
         stage('push') {
             steps {
-                sh 'docker login -u mupparaju0007 -p $password'
+                sh 'docker login -u rahamshaik -p $password'
                 sh 'docker push $repo'
             }
         }
@@ -30,6 +30,3 @@ pipeline {
         }
     }
 }
-
-
-NOTE: ADD PARAMETERS FOR VARIABLES 
