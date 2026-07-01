@@ -156,8 +156,6 @@ Deploys multi-service applications across the cluster.
 
 ## 📸 Screenshots
 
-Screenshots to be added:
-
 - Jenkins Dashboard
 - Successful Pipeline
 - Docker Build Logs
