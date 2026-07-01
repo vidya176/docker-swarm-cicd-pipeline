@@ -1,1 +1,26 @@
-
+version: '3.8'
+services:
+  movies:
+    image: /9ammovies:latest
+    ports:
+      - "81:80"
+    deploy:
+      replicas: 3
+  train:
+    image: rahamshaik/9amtrain:latest
+    ports:
+      - "82:80"
+    deploy:
+      replicas: 3
+  recharge:
+    image: rahamshaik/9amrecharge:latest
+    ports:
+      - "83:80"
+    deploy:
+      replicas: 3
+  dth:
+    image: rahamshaik/9amdth:latest
+    ports:
+      - "84:80"
+    deploy:
+      replicas: 3
